@@ -12,9 +12,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val editText=findViewById<EditText>(R.id.editTextName)
+        val editText=findViewById<EditText>(R.id.editTextActivityMain)
 
-        findViewById<Button>(R.id.Button).setOnClickListener{
+        findViewById<Button>(R.id.buttonActivityMain).setOnClickListener{
             val name =editText.text.toString();
 
 

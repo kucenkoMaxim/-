@@ -14,7 +14,7 @@ class SecondActivity : AppCompatActivity() {
         setContentView(R.layout.activity_second)
 
 
-    val textView=findViewById<TextView>(R.id.text_view)
+    val textView=findViewById<TextView>(R.id.text_view_second_activity)
         val name = intent.getStringExtra(NAME)
 
         textView.text=name
